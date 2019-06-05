@@ -1,17 +1,25 @@
-﻿using System.Text;
+﻿using System;
 
 namespace MStringExtensions
 {
     public static class StringExtensions
     {
-        public static string Reverse(this string s)
+        public static byte[] ToByteArray(this string hex)
         {
-            StringBuilder stringBuilder = new StringBuilder();
-            for(int i = s.Length - 1; i>= 0; i--)
+            if (hex == null)
             {
-                stringBuilder.Append(s[i]);
+                throw new ArgumentNullException(nameof(hex));
             }
-            return stringBuilder.ToString();
+            if(hex.Length % 2 != 0)
+            {
+                throw new ArgumentException("length of string must be an even number.");
+            }
+            byte[] bytes = new byte[hex.Length >> 1];
+            for (int i = 0; i < hex.Length; i += 2)
+            {
+                bytes[i >> 1] = Convert.ToByte(hex.Substring(i, 2), 16);
+            }
+            return bytes;
         }
     }
 }

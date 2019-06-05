@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MStringExtensions", "MStringExtensions\MStringExtensions.csproj", "{206886C7-A9F2-4D2B-8ACA-2D3F8648FBCB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{A4D80537-5976-4496-8A6F-1D31FA9FAB8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{206886C7-A9F2-4D2B-8ACA-2D3F8648FBCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{206886C7-A9F2-4D2B-8ACA-2D3F8648FBCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{206886C7-A9F2-4D2B-8ACA-2D3F8648FBCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4D80537-5976-4496-8A6F-1D31FA9FAB8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4D80537-5976-4496-8A6F-1D31FA9FAB8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4D80537-5976-4496-8A6F-1D31FA9FAB8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4D80537-5976-4496-8A6F-1D31FA9FAB8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -11,10 +11,10 @@ namespace MArrayExtensions
             {
                 throw new ArgumentNullException(nameof(array));
             }
-            var a = array
+            string[] convertedToHexArray = array
                 .Select(x => x.ToString("X2"))
                 .ToArray();
-            return string.Join(separator ?? "", a);
+            return string.Join(separator ?? "", convertedToHexArray);
         }
 
         public static string ToHex(this byte[] array)

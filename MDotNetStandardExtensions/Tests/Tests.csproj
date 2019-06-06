@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MArrayExtensions\MArrayExtensions.csproj" />
     <ProjectReference Include="..\MStringExtensions\MStringExtensions.csproj" />
   </ItemGroup>
 

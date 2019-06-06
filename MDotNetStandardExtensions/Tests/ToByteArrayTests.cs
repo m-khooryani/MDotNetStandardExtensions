@@ -1,9 +1,11 @@
 using MStringExtensions;
 using System;
+using System.Diagnostics.CodeAnalysis;
 using Xunit;
 
 namespace Tests
 {
+    [ExcludeFromCodeCoverage]
     public class ToByteArrayTests
     {
         [Fact]
@@ -33,7 +35,7 @@ namespace Tests
         }
 
         [Fact]
-        public void NullStringShoudThrowArgumentException()
+        public void NullStringShoudThrowArgumentNullException()
         {
             string s = null;
             Action action = () => s.ToByteArray();

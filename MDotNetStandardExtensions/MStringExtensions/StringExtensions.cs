@@ -10,7 +10,7 @@ namespace MStringExtensions
             {
                 throw new ArgumentNullException(nameof(hex));
             }
-            if(hex.Length % 2 != 0)
+            if (hex.Length % 2 != 0)
             {
                 throw new ArgumentException("length of string must be an even number.");
             }

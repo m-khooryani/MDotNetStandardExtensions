@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MStringExtensions", "MStringExtensions\MStringExtensions.csproj", "{206886C7-A9F2-4D2B-8ACA-2D3F8648FBCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MStringExtensions", "MStringExtensions\MStringExtensions.csproj", "{206886C7-A9F2-4D2B-8ACA-2D3F8648FBCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{A4D80537-5976-4496-8A6F-1D31FA9FAB8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{A4D80537-5976-4496-8A6F-1D31FA9FAB8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MArrayExtensions", "MArrayExtensions\MArrayExtensions.csproj", "{6542EF7F-2688-46EE-B5E7-75286FC5711F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A4D80537-5976-4496-8A6F-1D31FA9FAB8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4D80537-5976-4496-8A6F-1D31FA9FAB8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4D80537-5976-4496-8A6F-1D31FA9FAB8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6542EF7F-2688-46EE-B5E7-75286FC5711F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6542EF7F-2688-46EE-B5E7-75286FC5711F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6542EF7F-2688-46EE-B5E7-75286FC5711F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6542EF7F-2688-46EE-B5E7-75286FC5711F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -12,26 +12,26 @@ namespace Tests
         public void EmptyStringShouldReturnEmptyArray()
         {
             string s = "";
-            var a = s.ToByteArray();
-            Assert.Empty(a);
+            var byteArray = s.ToByteArray();
+            Assert.Empty(byteArray);
         }
 
         [Fact]
         public void Sample1()
         {
             string s = "0001FF03ABabAbaB";
-            var a = s.ToByteArray();
-            byte[] arr = new byte[] { 0x00, 0x01, 0xFF, 0x03, 0xAB, 0xAB, 0xAB, 0xAB };
-            Assert.Equal(arr, a);
+            var byteArray = s.ToByteArray();
+            byte[] expectedByteArray = new byte[] { 0x00, 0x01, 0xFF, 0x03, 0xAB, 0xAB, 0xAB, 0xAB };
+            Assert.Equal(expectedByteArray, byteArray);
         }
 
         [Fact]
         public void Sample2()
         {
             string s = "00";
-            var a = s.ToByteArray();
-            byte[] arr = new byte[] { 0x00 };
-            Assert.Equal(arr, a);
+            var byteArray = s.ToByteArray();
+            byte[] expectedByteArray = new byte[] { 0x00 };
+            Assert.Equal(expectedByteArray, byteArray);
         }
 
         [Fact]
